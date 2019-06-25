@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./js/zadanie00.js",
+  entry: "./js/zadanie02.js",
   output: {
     filename: "out.js",
     path: path.resolve(__dirname, "build")
