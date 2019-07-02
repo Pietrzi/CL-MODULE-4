@@ -6,6 +6,12 @@ module.exports = {
     filename: "out.js",
     path: path.resolve(__dirname, "build")
   },
+  devServer: {
+    contentBase: path.join(__dirname, "./"),
+    publicPath: "/build/",
+    compress: true,
+    port: 3001
+  },
   watch: true,
   mode: "production",
   module: {
@@ -24,4 +30,4 @@ module.exports = {
       }
     ]
   }
-};
+}
